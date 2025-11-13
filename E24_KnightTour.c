@@ -27,7 +27,7 @@ int currentCol;
 int main() {
 
     // create .txt file
-    fp = fopen("C:\\Users\\Sepehr\\Documents\\DeitelCB\\C6\\E24\\moveRecord.txt", "w");
+    fp = fopen("!!!your directory!!!", "w");
 
     if (fp == NULL) {
 
@@ -263,4 +263,5 @@ void clearScreen() {
     #else
         system("clear"); // For Unix/Linux/Mac
     #endif
+
 }
